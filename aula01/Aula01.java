@@ -6,6 +6,6 @@ public class Aula01 {
         c1.cor = "Azul";
         c1.ponta = 0.5f;
         c1.tampada = false;
-
+        c1.status();
     }
 }
