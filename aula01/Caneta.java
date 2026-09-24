@@ -15,14 +15,19 @@ public class Caneta{
     }
 
     void rabiscar(){
-
+        if(this.tampada == true){
+            System.out.println("Erro! Não posso rabiscar!");
+        }
+        else{
+            System.out.println("Estou rabiscando!");
+        }
     }
 
     void tampar(){
-
+        this.tampada = true;
     }
 
     void destampar(){
-        
+        this.tampada = false;
     }
 }
